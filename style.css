@@ -1,0 +1,284 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height:100%;
+    width: 100%;
+}
+
+#header{
+    height:12%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    /* position: fixed; ye header ko fixed krdeta scroll krne pr nhi hatega  */
+    justify-content: space-around;
+    background-color: #fff;
+}
+#logo{
+    height:70%;
+    margin: 20px;
+}
+#logo img{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+#contact{
+   text-align: center;
+   /* margin-left: 50px; */
+   font-weight:lighter;
+   /* margin-right: 20px; */
+}
+.icon{
+    /* margin-left: 20px; */
+    padding: 10px;
+    border-radius: 50%;
+}
+.icon:hover{
+    background-color: lightblue;
+}
+#login{
+    display: flex;
+    padding: 8px;
+    border-radius: 50px;
+
+    /* margin-left: 20px; */
+}
+#login:hover{
+    background-color: lightblue;
+}
+#try{
+    background-color: green;
+    padding: 12px 24px; 
+    color: #fff;
+    border-radius: 5px;
+    /* margin-left: 20px; */
+    /* padding: 12px 24px; iska mtlb upar niche 12px ke internal border space 12 px ka hai aur 24 left right ke liye hai */
+}
+#try:hover{
+    background-color: darkblue;
+}
+/* ye fakeheader isliye hai kyuki jo 10% neeche ka hissa dikh rha tha usko hide krne ke liye */
+#fakeheader{
+     height:12%;
+    width: 100%;
+}
+.text{
+    /* margin: 10px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(3, 3, 108);
+    display: flex;
+
+}
+.text:hover{
+    color: blue;
+}
+#page1{
+    height:90%;
+    width: 100%;
+    /* height:90%; main ka 90% height hai kyuki page1 main ke andar hai
+    width: 100%; main ka 100% width hai kyuki page1 main ke andar hai
+    background-color: blueviolet; */
+}
+#strip{
+    width: 100%;
+    height: 8%;
+    background-color: rgb(2, 2, 90);
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* font-weight: bold; */
+    font-size: xx-large;
+
+}
+#content{
+    width: 100%;
+    height: 76%; 
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 76%; hai kyuki 100% height me se 90% height page1 liya hai aur 90% ka page height se 8% strip ka height hai kyuki strip page ke andar hai aur heading 16% height liya hai page ka height se aur bacha 76% jo ki hum content ko diye hai */
+}
+#box1{
+    height: 90%;
+    width: 47%;
+    background-color: #fff;
+}
+#box1 h1{
+    font-weight: 600;
+    font-size: 70px;
+    color: darkblue;
+    margin: 30px 10px;
+}
+#box1 p{
+    font-size: xx-large;
+    margin: 10px;
+    margin: 30px 10px;
+}
+#box2{
+    height: 90%;
+    width: 47%;
+    
+}
+#box2 iframe{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    
+}
+#heading{
+    width: 100%;
+    height: 16%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    /* background-color: #fff; */
+
+}
+#heading h1{
+    font-weight: 600;
+}
+#btns{
+    display: flex;
+}
+#btn1{
+    margin: 10px;
+    width: 23%;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: rgb(92, 92, 250);
+    border-radius: 5px;
+}
+#btn1:hover{
+    background-color: darkblue;
+}
+#btn2{
+    margin: 10px;
+    width: 23%;
+    padding: 10px 20px;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+#btn2:hover{
+    background-color: rgb(191, 227, 239);
+    color: darkblue;
+    border: 1px solid blue;
+}
+#page2{
+    height:85%;
+    width: 100%;
+    background:linear-gradient(135deg, #152d9f, #021d5b);
+    
+}
+#heading2{
+    text-align: center;
+    font-size: xx-large;
+    padding: 10px;
+
+}
+#heading2 h1{
+    color: #fff;
+}
+#heading2 h5{
+    color: rgb(80, 80, 210);
+}
+#label{
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+    
+}
+.card{
+    background-color: #1a328c;
+    width: 220px;
+    height: 200px;
+    border-radius: 10px;
+    opacity: 0.9;
+    padding: 15px;
+     border: 2px solid rgba(211, 202, 202, 0.4);
+     color: white;
+     font-size:medium;
+
+}
+#card1:hover{
+    background-color: rgb(116, 3, 116);
+}
+#card2:hover{
+    background-color: orangered;
+}
+#card3:hover{
+    background-color: blue;
+}
+#card4:hover{
+    background-color: rgb(99, 99, 198);
+}
+#card5:hover{
+    background-color: rgb(180, 48, 116);
+}
+
+#bottom{
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    margin: 30px;
+    line-height: 1.45;
+}
+.tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#tab1{
+    background-color: #0176d3;
+    height: 50px;
+    width: 280px; 
+    color: #fff;
+    border: #fff;
+    border-radius: 10px;
+    display: flex;justify-content: center;
+    align-items: center;
+    margin: 20px 30px;
+    font-size: 15px;
+    padding: 20px 30px;
+     font-weight: 900;
+
+}
+#tab2{
+    background-color: #fff;
+    height: 50px;
+    width: 250px;
+    color: #2a158b;
+    border: #fff;
+    border-radius: 10px;
+    display: flex;justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+    font-size: 15px;
+    font-weight: 900;
+}
